@@ -12,6 +12,8 @@ function App() {
       .then((data) => setData(data.results));
   }, []);
 
+  console.log("first change");
+
   const handleClick = () => {
     setStart((prevStart) => !prevStart);
   };
